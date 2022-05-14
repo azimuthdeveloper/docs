@@ -58,6 +58,8 @@ flutter pub run build_runner build
 
 This opens an Isar instance at a valid location.
 
+#### `getApplicationSupportDirectory()` is part of the `path_provider` library
+
 ```dart
 final dir = await getApplicationSupportDirectory();
 
